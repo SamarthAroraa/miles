@@ -4,14 +4,16 @@ import tw from "tailwind-react-native-classnames";
 
 const HomeScreen = () => {
   return (
-    <View>
-      <Text style={tw`text-xl font-medium text-black`}>
-        This is the home screen
-      </Text>
+    <View >
+      <View style = {tw``}>
+        Home screen
+      </View>
     </View>
   );
 };
 
 export default HomeScreen;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+   
+});
